@@ -1,4 +1,8 @@
 /* Styles for the Run Buddy landing page */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
@@ -6,7 +10,6 @@ body {
  }
 
 header {
-    display: flex;
      padding: 20px 35px;
      background-color: #39a6b2;
  }
@@ -15,15 +18,21 @@ header h1{
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    padding: 0 100px 0 0;
-
-}
+    display: inline;
+   }
 header a {
+    text-decoration: none;
     color: #fce138;
 }
-nav ul {
-    display: flex;
+header nav {
+    float: right;
+    margin: 7px 0;
 }
-nav ul li {
-    padding: 0 20px;
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
