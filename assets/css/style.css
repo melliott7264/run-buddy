@@ -113,6 +113,7 @@ section {
 }
 /* Hero Style End */
 
+/* Common styling for What We Do, What You Do and Trainer Sections */
 .section-title {
     font-size: 55px;
     color:#024e76;
@@ -136,6 +137,7 @@ section {
 .primary-border {
     border-color: #fce138;
 }
+
  /* Styling for What You Do Sections */
 .steps {
     text-align: center;
